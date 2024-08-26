@@ -12,7 +12,7 @@
 		"sources": "https://github.com/XintaoOwO/test-1.21"
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/test/icon.png",
+	"icon": "assets/xintaotest/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
