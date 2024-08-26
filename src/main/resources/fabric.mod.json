@@ -1,29 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "test",
+	"id": "xintaotest",
 	"version": "${version}",
-	"name": "Test",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "XintaoTest",
+	"description": "Test mod for Fabric MC 1.21.",
 	"authors": [
-		"Me!"
+		"xintao", "Xplorer Lab", "Gao"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/XintaoOwO/test-1.21"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/test/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"xintao.test.Test"
+          "xintao.xintaotest.XintaoTest"
 		],
 		"fabric-datagen": [
-			"xintao.test.TestDataGenerator"
+			"xintao.xintaotest.XintaoTestDataGenerator"
+		],
+		"client": [
+			"xintao.xintaotest.XintaoTestClient"
 		]
 	},
 	"mixins": [
-		"test.mixins.json"
+		"xintaotest.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.2",

@@ -1,4 +1,4 @@
-package xintao.test.mixin;
+package xintao.xintaotest.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

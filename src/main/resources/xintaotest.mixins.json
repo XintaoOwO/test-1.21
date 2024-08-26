@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "xintao.test.mixin",
+	"package": "xintao.xintaotest.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
