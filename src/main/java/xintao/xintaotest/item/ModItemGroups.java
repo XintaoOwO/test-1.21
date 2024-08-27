@@ -22,8 +22,8 @@ public class ModItemGroups
     public static void registerModItemGroups()
     {
         Registry.register(Registries.ITEM_GROUP, XintaoTest_Group, 
-                ItemGroup.create(ItemGroup.Row.TOP, 7)
-                        .displayName(Text.translatable("itemGroup.xintaotest.xintaotest_group"))
+                ItemGroup.create(null, -1)
+                        .displayName(Text.translatable("itemGroup.xintaotest_group"))
                         .icon(() -> new ItemStack(ModItems.MYTHRIL_INGOT))
                         .entries((displayContext, entries) -> 
                             {
