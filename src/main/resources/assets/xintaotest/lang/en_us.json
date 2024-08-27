@@ -1,4 +1,5 @@
 {
   "item.xintaotest.mythril_ingot": "Mythril Ingot",
-  "item.xintaotest.silver_ingot": "Diamond"
+  "item.xintaotest.silver_ingot": "Diamond",
+  "itemGroup.xintaotest.xintaotest_group": "Xintao Test"
 }
