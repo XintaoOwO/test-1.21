@@ -14,22 +14,29 @@ public class ModItems
 {
     public static final Item MYTHRIL_INGOT = registerItems("mythril_ingot", new Item(new Item.Settings()));
     public static final Item SILVER_INGOT = registerItems("silver_ingot", new Item(new Item.Settings()));
+    public static final Item SKYBLUE_INGOT = registerItems("skyblue_ingot", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_SWORD = registerItems("mythril_sword", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_PICKAXE = registerItems("mythril_pickaxe", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_AXE = registerItems("mythril_axe", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_SHOVEL = registerItems("mythril_shovel", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_HOE = registerItems("mythril_hoe", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_HELMET = registerItems("mythril_helmet", new Item(new Item.Settings()));
     
     private static Item registerItems(String id, Item item)
     {
         //return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(Test.MOD_ID, id)), item);
         return Registry.register(Registries.ITEM, Identifier.of(XintaoTest.MOD_ID, id), item);
     }
-    
+/*    
     private static void addItemToItemGroup(FabricItemGroupEntries fabricItemGroupEntries)
     {
         fabricItemGroupEntries.add(MYTHRIL_INGOT);
         fabricItemGroupEntries.add(SILVER_INGOT);
     }
-    
+*/    
     public static void registerModItems()
     {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToItemGroup);
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToItemGroup);
         XintaoTest.LOGGER.info("Registering Items");
     }
 }

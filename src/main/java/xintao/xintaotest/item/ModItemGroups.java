@@ -28,6 +28,13 @@ public class ModItemGroups
                         .entries((displayContext, entries) -> 
                             {
                                 entries.add(ModItems.MYTHRIL_INGOT);
+                                entries.add(ModItems.SILVER_INGOT);
+                                entries.add(ModItems.SKYBLUE_INGOT);
+                                entries.add(ModItems.MYTHRIL_SWORD);
+                                entries.add(ModItems.MYTHRIL_PICKAXE);
+                                entries.add(ModItems.MYTHRIL_AXE);
+                                entries.add(ModItems.MYTHRIL_SHOVEL);
+                                entries.add(ModItems.MYTHRIL_HOE);
                             }
                         )
                         .build()
