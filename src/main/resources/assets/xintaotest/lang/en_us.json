@@ -1,5 +1,17 @@
 {
+  "itemGroup.xintaotest_group": "Xintao Test",
   "item.xintaotest.mythril_ingot": "Mythril Ingot",
-  "item.xintaotest.silver_ingot": "Diamond",
-  "itemGroup.xintaotest_group": "Xintao Test"
+  "item.xintaotest.silver_ingot": "Silver Ingot",
+  "item.xintaotest.mythril_sword": "Mythril Sword",
+  "item.xintaotest.mythril_pickaxe": "Mythril Pickaxe",
+  "item.xintaotest.mythril_axe": "Mythril Axe",
+  "item.xintaotest.mythril_shovel": "Mythril Shovel",
+  "item.xintaotest.mythril_hoe": "Mythril Hoe",
+  "item.xintaotest.mythril_helmet": "Mythril Helmet",
+  "item.xintaotest.mythril_chestplate": "Mythril Chestplate",
+  "item.xintaotest.mythril_leggings": "Mythril Leggings",
+  "item.xintaotest.mythril_boots": "Mythril Boots",
+  "item.xintaotest.mythril_block": "Mythril Block",
+  "item.xintaotest.mythril_ore": "Mythril Ore",
+  "item.xintaotest.raw_mythril": "Raw Mythril"
 }

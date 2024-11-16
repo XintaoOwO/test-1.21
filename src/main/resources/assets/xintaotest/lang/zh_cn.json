@@ -1,4 +1,17 @@
 {
+  "itemGroup.xintaotest_group": "Xintao Test",
   "item.xintaotest.mythril_ingot": "秘银锭",
-  "item.xintaotest.silver_ingot": "银锭"
+  "item.xintaotest.silver_ingot": "银锭",
+  "item.xintaotest.mythril_sword": "秘银剑",
+  "item.xintaotest.mythril_pickaxe": "秘银镐",
+  "item.xintaotest.mythril_axe": "秘银斧",
+  "item.xintaotest.mythril_shovel": "秘银锹",
+  "item.xintaotest.mythril_hoe": "秘银锄",
+  "item.xintaotest.mythril_helmet": "秘银头盔",
+  "item.xintaotest.mythril_chestplate": "秘银胸甲",
+  "item.xintaotest.mythril_leggings": "秘银护腿",
+  "item.xintaotest.mythril_boots": "秘银靴子",
+  "item.xintaotest.mythril_block": "秘银块",
+  "item.xintaotest.mythril_ore": "秘银矿石",
+  "item.xintaotest.raw_mythril": "粗秘银"
 }
