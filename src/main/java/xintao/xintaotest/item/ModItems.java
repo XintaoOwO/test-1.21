@@ -21,6 +21,9 @@ public class ModItems
     public static final Item MYTHRIL_SHOVEL = registerItems("mythril_shovel", new Item(new Item.Settings()));
     public static final Item MYTHRIL_HOE = registerItems("mythril_hoe", new Item(new Item.Settings()));
     public static final Item MYTHRIL_HELMET = registerItems("mythril_helmet", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_CHESTPLATE = registerItems("mythril_chestplate", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_LEGGINGS = registerItems("mythril_leggings", new Item(new Item.Settings()));
+    public static final Item MYTHRIL_BOOTS = registerItems("mythril_boots", new Item(new Item.Settings()));
     
     private static Item registerItems(String id, Item item)
     {

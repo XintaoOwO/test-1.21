@@ -35,6 +35,10 @@ public class ModItemGroups
                                 entries.add(ModItems.MYTHRIL_AXE);
                                 entries.add(ModItems.MYTHRIL_SHOVEL);
                                 entries.add(ModItems.MYTHRIL_HOE);
+                                entries.add(ModItems.MYTHRIL_HELMET);
+                                entries.add(ModItems.MYTHRIL_CHESTPLATE);
+                                entries.add(ModItems.MYTHRIL_LEGGINGS);
+                                entries.add(ModItems.MYTHRIL_BOOTS);
                             }
                         )
                         .build()
