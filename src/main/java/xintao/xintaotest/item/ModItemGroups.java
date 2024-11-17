@@ -29,7 +29,7 @@ public class ModItemGroups
                             {
                                 entries.add(ModItems.MYTHRIL_INGOT);
                                 entries.add(ModItems.SILVER_INGOT);
-                                entries.add(ModItems.SKYBLUE_INGOT);
+                                entries.add(ModItems.CELESTE_INGOT);
                                 entries.add(ModItems.MYTHRIL_SWORD);
                                 entries.add(ModItems.MYTHRIL_PICKAXE);
                                 entries.add(ModItems.MYTHRIL_AXE);
@@ -39,6 +39,9 @@ public class ModItemGroups
                                 entries.add(ModItems.MYTHRIL_CHESTPLATE);
                                 entries.add(ModItems.MYTHRIL_LEGGINGS);
                                 entries.add(ModItems.MYTHRIL_BOOTS);
+                                entries.add(ModItems.MYTHRIL_BLOCK);
+                                entries.add(ModItems.MYTHRIL_ORE);
+                                entries.add(ModItems.RAW_MYTHRIL);
                             }
                         )
                         .build()
