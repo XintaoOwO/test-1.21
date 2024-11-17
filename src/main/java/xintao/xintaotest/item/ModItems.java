@@ -26,19 +26,11 @@ public class ModItems
     
     private static Item registerItems(String id, Item item)
     {
-        //return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(Test.MOD_ID, id)), item);
         return Registry.register(Registries.ITEM, Identifier.of(XintaoTest.MOD_ID, id), item);
     }
-/*    
-    private static void addItemToItemGroup(FabricItemGroupEntries fabricItemGroupEntries)
-    {
-        fabricItemGroupEntries.add(MYTHRIL_INGOT);
-        fabricItemGroupEntries.add(SILVER_INGOT);
-    }
-*/    
+
     public static void registerModItems()
     {
-        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToItemGroup);
         XintaoTest.LOGGER.info("Registering Items");
     }
 }
