@@ -1,5 +1,6 @@
 package xintao.xintaotest.block;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -10,6 +11,21 @@ import xintao.xintaotest.XintaoTest;
 
 public class ModBlocks 
 {
+    public static final Block MYTHRIL_BLOCK = register("mythril_block", 
+            new Block(AbstractBlock.Settings.create().strength(6.0f, 6.0f)));
+    public static final Block CELESTITE_BLOCK = register("celestite_block", 
+            new Block(AbstractBlock.Settings.create().strength(6.0f, 6.0f)));
+    public static final Block SILVER_BLOCK = register("silver_block", 
+            new Block(AbstractBlock.Settings.create().strength(3.0f, 6.0f)));
+    public static final Block MYTHRIL_ORE = register("mythril_ore", 
+            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
+    public static final Block CELESTITE_ORE = register("celestite_ore", 
+            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
+    public static final Block SILVER_ORE = register("silver_ore", 
+            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
+    public static final Block RAW_MYTHRIL_BLOCK = register("raw_mythril_block", 
+            new Block(AbstractBlock.Settings.create().strength(5.0f, 6.0f)));
+    
     public static void registerBlockItems(String id, Block block)
     {
         Item item = Registry.register(Registries.ITEM, Identifier.of(XintaoTest.MOD_ID, id), new BlockItem(block, new Item.Settings()));
@@ -24,5 +40,10 @@ public class ModBlocks
         registerBlockItems(id, block);
         
         return Registry.register(Registries.BLOCK, Identifier.of(XintaoTest.MOD_ID, id), block);
+    }
+    
+    public static void registerModBlocks()
+    {
+        XintaoTest.LOGGER.info("Registering Blocks");
     }
 }

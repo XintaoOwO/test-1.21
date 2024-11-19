@@ -10,7 +10,7 @@ public class ModItems
 {
     public static final Item MYTHRIL_INGOT = registerItems("mythril_ingot", new Item(new Item.Settings()));
     public static final Item SILVER_INGOT = registerItems("silver_ingot", new Item(new Item.Settings()));
-    public static final Item CELESTE_INGOT = registerItems("celeste_ingot", new Item(new Item.Settings()));
+    public static final Item CELESTITE_INGOT = registerItems("celestite_ingot", new Item(new Item.Settings()));
     public static final Item MYTHRIL_SWORD = registerItems("mythril_sword", new Item(new Item.Settings()));
     public static final Item MYTHRIL_PICKAXE = registerItems("mythril_pickaxe", new Item(new Item.Settings()));
     public static final Item MYTHRIL_AXE = registerItems("mythril_axe", new Item(new Item.Settings()));
@@ -20,8 +20,7 @@ public class ModItems
     public static final Item MYTHRIL_CHESTPLATE = registerItems("mythril_chestplate", new Item(new Item.Settings()));
     public static final Item MYTHRIL_LEGGINGS = registerItems("mythril_leggings", new Item(new Item.Settings()));
     public static final Item MYTHRIL_BOOTS = registerItems("mythril_boots", new Item(new Item.Settings()));
-    public static final Item MYTHRIL_BLOCK = registerItems("mythril_block", new Item(new Item.Settings()));
-    public static final Item MYTHRIL_ORE = registerItems("mythril_ore", new Item(new Item.Settings()));
+    public static final Item RAW_SILVER = registerItems("raw_silver", new Item(new Item.Settings()));
     public static final Item RAW_MYTHRIL = registerItems("raw_mythril", new Item(new Item.Settings()));
     
     private static Item registerItems(String id, Item item)

@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import xintao.xintaotest.block.ModBlocks;
 import xintao.xintaotest.item.ModItemGroups;
 import xintao.xintaotest.item.ModItems;
 
@@ -24,6 +25,8 @@ public class XintaoTest implements ModInitializer
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
+		ModBlocks.registerModBlocks();
+		
 		LOGGER.info("Hello Fabric world!");
 	}
 }
