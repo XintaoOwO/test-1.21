@@ -18,7 +18,7 @@ public class ModBlocks
     public static final Block SILVER_BLOCK = register("silver_block", 
             new Block(AbstractBlock.Settings.create().strength(3.0f, 6.0f)));
     public static final Block MYTHRIL_ORE = register("mythril_ore", 
-            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
     public static final Block CELESTITE_ORE = register("celestite_ore", 
             new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
     public static final Block SILVER_ORE = register("silver_ore", 

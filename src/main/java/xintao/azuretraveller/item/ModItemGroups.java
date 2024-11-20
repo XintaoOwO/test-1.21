@@ -30,7 +30,9 @@ public class ModItemGroups
                         .icon(() -> new ItemStack(ModItems.MYTHRIL_INGOT))
                         .entries((displayContext, entries) -> 
                          {
+                             entries.add(ModItems.RAW_SILVER);
                              entries.add(ModItems.RAW_MYTHRIL);
+                             entries.add(ModItems.CELESTITE);
                              entries.add(ModItems.SILVER_INGOT);
                              entries.add(ModItems.MYTHRIL_INGOT);
                              entries.add(ModItems.CELESTITE_INGOT);
