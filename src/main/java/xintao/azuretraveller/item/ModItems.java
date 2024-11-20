@@ -10,7 +10,7 @@ public class ModItems
 {
     public static final Item RAW_SILVER = registerItems("raw_silver", new Item(new Item.Settings()));
     public static final Item RAW_MYTHRIL = registerItems("raw_mythril", new Item(new Item.Settings()));
-    public static final Item CELESTITE = registerItems("celestite", new Item(new Item.Settings()));
+    public static final Item RAW_CELESTITE = registerItems("raw_celestite", new Item(new Item.Settings()));
     public static final Item MYTHRIL_INGOT = registerItems("mythril_ingot", new Item(new Item.Settings()));
     public static final Item SILVER_INGOT = registerItems("silver_ingot", new Item(new Item.Settings()));
     public static final Item CELESTITE_INGOT = registerItems("celestite_ingot", new Item(new Item.Settings()));

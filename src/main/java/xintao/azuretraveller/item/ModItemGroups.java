@@ -13,9 +13,9 @@ import xintao.azuretraveller.block.ModBlocks;
 
 public class ModItemGroups 
 {
-    public static final RegistryKey<ItemGroup> AzureTraveller_Materials = register("azuretraveller_materials");
-    public static final RegistryKey<ItemGroup> AzureTraveller_Building_Blocks = register("azuretraveller_building_blocks");
-    public static final RegistryKey<ItemGroup> AzureTraveller_Tools_Armors = register("azuretraveller_tools_armors");
+    public static final RegistryKey<ItemGroup> AT_Materials = register("at_materials");
+    public static final RegistryKey<ItemGroup> AT_Building_Blocks = register("at_building_blocks");
+    public static final RegistryKey<ItemGroup> AT_Tools_Armors = register("at_tools_armors");
     
     private static RegistryKey<ItemGroup> register(String id) 
     {
@@ -24,15 +24,15 @@ public class ModItemGroups
     
     public static void registerModItemGroups()
     {
-        Registry.register(Registries.ITEM_GROUP, AzureTraveller_Materials, 
+        Registry.register(Registries.ITEM_GROUP, AT_Materials, 
                 ItemGroup.create(null, -2)
-                        .displayName(Text.translatable("itemGroup.azuretraveller_materials"))
+                        .displayName(Text.translatable("itemGroup.at_materials"))
                         .icon(() -> new ItemStack(ModItems.MYTHRIL_INGOT))
                         .entries((displayContext, entries) -> 
                          {
                              entries.add(ModItems.RAW_SILVER);
                              entries.add(ModItems.RAW_MYTHRIL);
-                             entries.add(ModItems.CELESTITE);
+                             entries.add(ModItems.RAW_CELESTITE);
                              entries.add(ModItems.SILVER_INGOT);
                              entries.add(ModItems.MYTHRIL_INGOT);
                              entries.add(ModItems.CELESTITE_INGOT);
@@ -41,9 +41,9 @@ public class ModItemGroups
                 .build()
         );
         
-        Registry.register(Registries.ITEM_GROUP, AzureTraveller_Building_Blocks,
+        Registry.register(Registries.ITEM_GROUP, AT_Building_Blocks,
                 ItemGroup.create(null, -3)
-                        .displayName(Text.translatable("itemGroup.azuretraveller_building_blocks"))
+                        .displayName(Text.translatable("itemGroup.at_building_blocks"))
                         .icon(() -> new ItemStack(ModBlocks.CELESTITE_BLOCK))
                         .entries((displayContext, entries) ->
                         {
@@ -59,9 +59,9 @@ public class ModItemGroups
                 .build()
         );
         
-        Registry.register(Registries.ITEM_GROUP, AzureTraveller_Tools_Armors,
+        Registry.register(Registries.ITEM_GROUP, AT_Tools_Armors,
                 ItemGroup.create(null, -1)
-                        .displayName(Text.translatable("itemGroup.azuretraveller_tools_armors"))
+                        .displayName(Text.translatable("itemGroup.at_tools_armors"))
                         .icon(() -> new ItemStack(ModItems.MYTHRIL_PICKAXE))
                         .entries((displayContext, entries) ->
                         {

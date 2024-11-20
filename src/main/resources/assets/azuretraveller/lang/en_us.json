@@ -1,9 +1,13 @@
 {
-  "itemGroup.azuretraveller_building_blocks": "Xintao Test Mod Building Blocks",
-  "itemGroup.azuretraveller_materials": "Xintao Test Mod Materials",
+  "itemGroup.at_building_blocks": "Azure Traveller Building Blocks",
+  "itemGroup.at_materials": "Azure Traveller Materials",
+  "itemGroup.at_tools_armors": "Azure Traveller Tools & Armors",
   
-  "item.azuretraveller.mythril_ingot": "Mythril Ingot",
   "item.azuretraveller.silver_ingot": "Silver Ingot",
+  "item.azuretraveller.raw_mythril": "Raw Mythril",
+  "item.azuretraveller.celestite_ingot": "Celestite Ingot",
+  "item.azuretraveller.raw_celestite": "Raw Celestite",
+  "item.azuretraveller.mythril_ingot": "Mythril Ingot",
   "item.azuretraveller.mythril_sword": "Mythril Sword",
   "item.azuretraveller.mythril_pickaxe": "Mythril Pickaxe",
   "item.azuretraveller.mythril_axe": "Mythril Axe",
@@ -13,8 +17,6 @@
   "item.azuretraveller.mythril_chestplate": "Mythril Chestplate",
   "item.azuretraveller.mythril_leggings": "Mythril Leggings",
   "item.azuretraveller.mythril_boots": "Mythril Boots",
-  "item.azuretraveller.raw_mythril": "Raw Mythril",
-  "item.azuretraveller.celestite_ingot": "Celeste Ingot",
   
   "block.azuretraveller.mythril_ore": "Mythril Ore",
   "block.azuretraveller.mythril_block": "Mythril Block",
