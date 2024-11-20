@@ -12,19 +12,19 @@ import xintao.azuretraveller.AzureTraveller;
 public class ModBlocks 
 {
     public static final Block MYTHRIL_BLOCK = register("mythril_block", 
-            new Block(AbstractBlock.Settings.create().strength(6.0f, 6.0f)));
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(3.5f, 6.0f)));
     public static final Block CELESTITE_BLOCK = register("celestite_block", 
-            new Block(AbstractBlock.Settings.create().strength(6.0f, 6.0f)));
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(3.5f, 6.0f)));
     public static final Block SILVER_BLOCK = register("silver_block", 
-            new Block(AbstractBlock.Settings.create().strength(3.0f, 6.0f)));
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 6.0f)));
     public static final Block MYTHRIL_ORE = register("mythril_ore", 
             new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
     public static final Block CELESTITE_ORE = register("celestite_ore", 
-            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
     public static final Block SILVER_ORE = register("silver_ore", 
-            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
     public static final Block RAW_MYTHRIL_BLOCK = register("raw_mythril_block", 
-            new Block(AbstractBlock.Settings.create().strength(5.0f, 6.0f)));
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 6.0f)));
     
     public static void registerBlockItems(String id, Block block)
     {
