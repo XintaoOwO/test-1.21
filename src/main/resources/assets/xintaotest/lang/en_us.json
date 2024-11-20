@@ -14,5 +14,14 @@
   "item.xintaotest.mythril_leggings": "Mythril Leggings",
   "item.xintaotest.mythril_boots": "Mythril Boots",
   "item.xintaotest.raw_mythril": "Raw Mythril",
-  "item.xintaotest.celeste_ingot": "Celeste Ingot"
+  "item.xintaotest.celestite_ingot": "Celeste Ingot",
+  
+  "block.xintaotest.mythril_ore": "Mythril Ore",
+  "block.xintaotest.mythril_block": "Mythril Block",
+  "block.xintaotest.raw_mythril_block": "Raw Mythril Block",
+  "block.xintaotest.silver_ore": "Silver Ore",
+  "block.xintaotest.silver_block": "Silver Block",
+  "block.xintaotest.raw_silver_block": "Raw Silver Block",
+  "block.xintaotest.celestite_ore": "Celestite Ore",
+  "block.xintaotest.celestite_block": "Celestite Block"
 }
