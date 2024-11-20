@@ -51,6 +51,7 @@ public class ModItemGroups
                             entries.add(ModBlocks.RAW_MYTHRIL_BLOCK);
                             entries.add(ModBlocks.SILVER_BLOCK);
                             entries.add(ModBlocks.MYTHRIL_BLOCK);
+                            entries.add(ModBlocks.CELESTITE_BLOCK);
                         }
                 )
                 .build()
