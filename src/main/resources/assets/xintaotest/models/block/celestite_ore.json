@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "xintaotest:block/mythril_block"
+    "all": "xintaotest:block/celestite_ore"
   }
 }
