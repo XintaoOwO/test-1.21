@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "xintaotest",
+	"id": "azuretraveller",
 	"version": "${version}",
-	"name": "XintaoTest",
+	"name": "AzureTraveller",
 	"description": "Test mod for Fabric MC 1.21.",
 	"authors": [
 		"xintao", "Xplorer Lab", "Gao"
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/XintaoOwO/test-1.21"
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/xintaotest/icon.png",
+	"icon": "assets/azuretraveller/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "xintao.xintaotest.XintaoTest"
+          "xintao.azuretraveller.AzureTraveller"
 		],
 		"fabric-datagen": [
-			"xintao.xintaotest.XintaoTestDataGenerator"
+			"xintao.azuretraveller.AzureTravellerDataGenerator"
 		],
 		"client": [
-			"xintao.xintaotest.XintaoTestClient"
+			"xintao.azuretraveller.AzureTravellerClient"
 		]
 	},
 	"mixins": [
-		"xintaotest.mixins.json"
+		"azuretraveller.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.2",

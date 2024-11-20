@@ -1,0 +1,27 @@
+{
+  "itemGroup.azuretraveller_building_blocks": "Xintao Test Mod Building Blocks",
+  "itemGroup.azuretraveller_materials": "Xintao Test Mod Materials",
+  
+  "item.azuretraveller.mythril_ingot": "Mythril Ingot",
+  "item.azuretraveller.silver_ingot": "Silver Ingot",
+  "item.azuretraveller.mythril_sword": "Mythril Sword",
+  "item.azuretraveller.mythril_pickaxe": "Mythril Pickaxe",
+  "item.azuretraveller.mythril_axe": "Mythril Axe",
+  "item.azuretraveller.mythril_shovel": "Mythril Shovel",
+  "item.azuretraveller.mythril_hoe": "Mythril Hoe",
+  "item.azuretraveller.mythril_helmet": "Mythril Helmet",
+  "item.azuretraveller.mythril_chestplate": "Mythril Chestplate",
+  "item.azuretraveller.mythril_leggings": "Mythril Leggings",
+  "item.azuretraveller.mythril_boots": "Mythril Boots",
+  "item.azuretraveller.raw_mythril": "Raw Mythril",
+  "item.azuretraveller.celestite_ingot": "Celeste Ingot",
+  
+  "block.azuretraveller.mythril_ore": "Mythril Ore",
+  "block.azuretraveller.mythril_block": "Mythril Block",
+  "block.azuretraveller.raw_mythril_block": "Raw Mythril Block",
+  "block.azuretraveller.silver_ore": "Silver Ore",
+  "block.azuretraveller.silver_block": "Silver Block",
+  "block.azuretraveller.raw_silver_block": "Raw Silver Block",
+  "block.azuretraveller.celestite_ore": "Celestite Ore",
+  "block.azuretraveller.celestite_block": "Celestite Block"
+}

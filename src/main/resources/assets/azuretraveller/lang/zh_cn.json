@@ -1,0 +1,24 @@
+{
+  "itemGroup.azuretraveller_building_blocks": "Xintao Test Mod 建筑方块",
+  "itemGroup.azuretraveller_materials": "Xintao Test Mod 材料",
+  
+  "item.azuretraveller.mythril_ingot": "秘银锭",
+  "item.azuretraveller.silver_ingot": "银锭",
+  "item.azuretraveller.mythril_sword": "秘银剑",
+  "item.azuretraveller.mythril_pickaxe": "秘银镐",
+  "item.azuretraveller.mythril_axe": "秘银斧",
+  "item.azuretraveller.mythril_shovel": "秘银锹",
+  "item.azuretraveller.mythril_hoe": "秘银锄",
+  "item.azuretraveller.mythril_helmet": "秘银头盔",
+  "item.azuretraveller.mythril_chestplate": "秘银胸甲",
+  "item.azuretraveller.mythril_leggings": "秘银护腿",
+  "item.azuretraveller.mythril_boots": "秘银靴子",
+  "item.azuretraveller.raw_mythril": "粗秘银",
+  "item.azuretraveller.celestite_ingot": "天蓝矿锭",
+  
+  "block.azuretraveller.mythril_ore": "秘银矿",
+  "block.azuretraveller.mythril_block": "秘银块",
+  "block.azuretraveller.raw_mythril_block": "粗秘银块",
+  "block.azuretraveller.celestite_ore": "天蓝矿",
+  "block.azuretraveller.celestite_block": "天蓝石块"
+}
