@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "at_materials",
+  "group": "mythril_ingot",
+  "ingredients": [
+    {
+      "item": "azuretraveller:mythril_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "azuretraveller:mythril_ingot"
+  }
+}

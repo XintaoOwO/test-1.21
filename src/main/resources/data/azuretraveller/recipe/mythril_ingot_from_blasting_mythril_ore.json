@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "category": "at_materials",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "mythril_ingot",
+  "ingredient": 
+  {
+    "item": "azuretraveller:mythril_ore"
+  },
+  "result": 
+  {
+    "id": "azuretraveller:mythril_ingot"
+  }
+}

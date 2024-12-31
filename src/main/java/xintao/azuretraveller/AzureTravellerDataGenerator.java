@@ -3,9 +3,11 @@ package xintao.azuretraveller;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class AzureTravellerDataGenerator implements DataGeneratorEntrypoint {
+public class AzureTravellerDataGenerator implements DataGeneratorEntrypoint 
+{
 	@Override
-	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
+	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) 
+	{
 
 	}
 }

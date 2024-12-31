@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "at_building_blocks",
+  "key": {
+    "#": {
+      "item": "azuretraveller:mythril_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "azuretraveller:mythril_block"
+  }
+}

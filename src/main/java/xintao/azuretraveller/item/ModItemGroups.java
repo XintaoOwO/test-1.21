@@ -1,5 +1,6 @@
 package xintao.azuretraveller.item;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -47,6 +48,10 @@ public class ModItemGroups
                         .icon(() -> new ItemStack(ModBlocks.CELESTITE_BLOCK))
                         .entries((displayContext, entries) ->
                         {
+                            entries.add(ModBlocks.CELESTE_LOG);
+                            entries.add(ModBlocks.CELESTE_WOOD);
+                            entries.add(ModBlocks.CELESTE_PLANKS);
+                            
                             entries.add(ModBlocks.SILVER_ORE);
                             entries.add(ModBlocks.MYTHRIL_ORE);
                             entries.add(ModBlocks.CELESTITE_ORE);

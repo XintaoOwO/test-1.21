@@ -23,6 +23,12 @@ public class ModItems
     public static final Item MYTHRIL_CHESTPLATE = registerItems("mythril_chestplate", new Item(new Item.Settings()));
     public static final Item MYTHRIL_LEGGINGS = registerItems("mythril_leggings", new Item(new Item.Settings()));
     public static final Item MYTHRIL_BOOTS = registerItems("mythril_boots", new Item(new Item.Settings()));
+    // 以下物品尚未添加.json
+    public static final Item OBSIDIAN_INGOT = registerItems("obsidian_ingot", new Item(new Item.Settings()));
+    public static final Item ONSIDIAN_PICKAXE = registerItems("obsidian_pickaxe", new Item(new Item.Settings()));
+    public static final Item OBSIDIAN_AXE = registerItems("obsidian_axe", new Item(new Item.Settings()));
+    public static final Item OBSIDIAN_SHOVEL = registerItems("obsidian_shovel", new Item(new Item.Settings()));
+    
     
     private static Item registerItems(String id, Item item)
     {
