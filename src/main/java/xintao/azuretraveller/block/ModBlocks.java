@@ -25,6 +25,13 @@ public class ModBlocks
             new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
     public static final Block RAW_MYTHRIL_BLOCK = register("raw_mythril_block", 
             new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
+    // 以下物品未添加.json文件
+    public static final Block CELESTE_LOG = register("celeste_log", 
+            new Block(AbstractBlock.Settings.create()));
+    public static final Block CELESTE_WOOD = register("celeste_wood", 
+            new Block(AbstractBlock.Settings.create()));
+    public static final Block CELESTE_PLANKS = register("celeste_planks", 
+            new Block(AbstractBlock.Settings.create()));
     
     public static void registerBlockItems(String id, Block block)
     {

@@ -17,6 +17,12 @@
   "item.azuretraveller.mythril_chestplate": "Mythril Chestplate",
   "item.azuretraveller.mythril_leggings": "Mythril Leggings",
   "item.azuretraveller.mythril_boots": "Mythril Boots",
+  "item.azuretraveller.obsidian_ingot": "Obsidian Ingot",
+  "item.azuretraveller.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.azuretraveller.obsidian_axe": "Obsidian Axe",
+  "item.azuretraveller.obsidian_shovel": "Obsidian Shovel",
+  "item.azuretraveller.obsidian_hoe": "Obsidian Hoe",
+  "item.azuretraveller.obsidian_sword": "Obsidian Sword",
   
   "block.azuretraveller.mythril_ore": "Mythril Ore",
   "block.azuretraveller.mythril_block": "Mythril Block",
@@ -25,5 +31,8 @@
   "block.azuretraveller.silver_block": "Silver Block",
   "block.azuretraveller.raw_silver_block": "Raw Silver Block",
   "block.azuretraveller.celestite_ore": "Celestite Ore",
-  "block.azuretraveller.celestite_block": "Celestite Block"
+  "block.azuretraveller.celestite_block": "Celestite Block",
+  "block.azuretraveller.celeste_log": "Celeste Log",
+  "block.azuretraveller.celeste_wood": "Celeste Wood",
+  "block.azuretraveller.celeste_planks": "Celeste Planks"
 }
