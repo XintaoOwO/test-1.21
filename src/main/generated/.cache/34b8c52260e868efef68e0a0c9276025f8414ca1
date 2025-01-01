@@ -1,0 +1,9 @@
+// 1.21	2025-01-01T21:59:35.4572786	AzureTraveller/Block Loot Tables
+21d622ba61c88573f8b1de96ef079af264f7453d data\azuretraveller\loot_table\blocks\celestite_block.json
+d36ca2344379654d9422d265f7e05dd10c43739b data\azuretraveller\loot_table\blocks\silver_block.json
+a263a0cbfadda1b2cf0b4a47763f9edf88a46837 data\azuretraveller\loot_table\blocks\mythril_ore.json
+a7583a04f709fa33260c213fd8cb1308db1c993d data\azuretraveller\loot_table\blocks\raw_mythril_block.json
+bdd41d3ca1572ce2bd71d40c256b1bf7a306c85b data\azuretraveller\loot_table\blocks\raw_silver_block.json
+e2ac5427729c7a29e2f6f46fbdb9974114d11345 data\azuretraveller\loot_table\blocks\celestite_ore.json
+252e0bd62085998d47fed45b60535912ea0b53aa data\azuretraveller\loot_table\blocks\silver_ore.json
+a8ef868dbd7ad813f77fe51675d86c3c5d3f610b data\azuretraveller\loot_table\blocks\mythril_block.json
