@@ -55,10 +55,11 @@ public class ModItemGroups
                             entries.add(ModBlocks.SILVER_ORE);
                             entries.add(ModBlocks.MYTHRIL_ORE);
                             entries.add(ModBlocks.CELESTITE_ORE);
-                            entries.add(ModBlocks.RAW_MYTHRIL_BLOCK);
                             entries.add(ModBlocks.SILVER_BLOCK);
                             entries.add(ModBlocks.MYTHRIL_BLOCK);
                             entries.add(ModBlocks.CELESTITE_BLOCK);
+                            entries.add(ModBlocks.RAW_SILVER_BLOCK);
+                            entries.add(ModBlocks.RAW_MYTHRIL_BLOCK);
                         }
                 )
                 .build()

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "azuretraveller:block/raw_silver_block"
+    }
+  }
+}
