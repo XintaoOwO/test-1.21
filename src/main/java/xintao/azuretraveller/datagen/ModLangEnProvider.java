@@ -22,6 +22,7 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add("itemGroup.at_building_blocks", "Azure Traveller Building Blocks");
         translationBuilder.add("itemGroup.at_materials", "Azure Traveller Materials");
         translationBuilder.add("itemGroup.at_tools_armors", "Azure Traveller Tools & Armors");
+        translationBuilder.add("itemGroup.at_food", "Azure Traveller Food");
         
         translationBuilder.add(ModItems.SILVER_INGOT, "Silver Ingot");
         translationBuilder.add(ModItems.MYTHRIL_INGOT, "Mythril Ingot");
