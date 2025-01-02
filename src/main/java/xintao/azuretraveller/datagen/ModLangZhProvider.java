@@ -43,6 +43,9 @@ public class ModLangZhProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.OBSIDIAN_AXE, "黑曜石斧");
         translationBuilder.add(ModItems.OBSIDIAN_SHOVEL, "黑曜石锹");
         translationBuilder.add(ModItems.OBSIDIAN_HOE, "黑曜石锄");
+        translationBuilder.add(ModItems.BLUEBERRY, "蓝莓");
+        translationBuilder.add(ModItems.STRAWBERRY, "草莓");
+        translationBuilder.add(ModItems.LUCKY_APPLE, "幸运果");
 
         translationBuilder.add(ModBlocks.SILVER_ORE, "银矿石");
         translationBuilder.add(ModBlocks.SILVER_BLOCK, "银块");

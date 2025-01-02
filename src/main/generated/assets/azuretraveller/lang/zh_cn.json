@@ -10,7 +10,9 @@
   "block.azuretraveller.raw_silver_block": "粗银块",
   "block.azuretraveller.silver_block": "银块",
   "block.azuretraveller.silver_ore": "银矿石",
+  "item.azuretraveller.blueberry": "蓝莓",
   "item.azuretraveller.celestite_ingot": "天蓝矿锭",
+  "item.azuretraveller.lucky_apple": "幸运果",
   "item.azuretraveller.mythril_axe": "秘银斧",
   "item.azuretraveller.mythril_boots": "秘银靴子",
   "item.azuretraveller.mythril_chestplate": "秘银胸甲",
@@ -31,6 +33,7 @@
   "item.azuretraveller.raw_mythril": "粗秘银",
   "item.azuretraveller.raw_silver": "粗银",
   "item.azuretraveller.silver_ingot": "银锭",
+  "item.azuretraveller.strawberry": "草莓",
   "itemGroup.at_building_blocks": "蔚蓝旅行家 建筑方块",
   "itemGroup.at_materials": "蔚蓝旅行家 材料",
   "itemGroup.at_tools_armors": "蔚蓝旅行家 工具装备"

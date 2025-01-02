@@ -10,7 +10,9 @@
   "block.azuretraveller.raw_silver_block": "Raw Silver Block",
   "block.azuretraveller.silver_block": "Silver Block",
   "block.azuretraveller.silver_ore": "Silver Ore",
+  "item.azuretraveller.blueberry": "blueberry",
   "item.azuretraveller.celestite_ingot": "Celestite Ingot",
+  "item.azuretraveller.lucky_apple": "lucky_apple",
   "item.azuretraveller.mythril_axe": "Mythril Axe",
   "item.azuretraveller.mythril_boots": "Mythril Boots",
   "item.azuretraveller.mythril_chestplate": "Mythril Chestplate",
@@ -31,6 +33,7 @@
   "item.azuretraveller.raw_mythril": "Raw Mythril",
   "item.azuretraveller.raw_silver": "Raw Silver",
   "item.azuretraveller.silver_ingot": "Silver Ingot",
+  "item.azuretraveller.strawberry": "strawberry",
   "itemGroup.at_building_blocks": "Azure Traveller Building Blocks",
   "itemGroup.at_materials": "Azure Traveller Materials",
   "itemGroup.at_tools_armors": "Azure Traveller Tools & Armors"

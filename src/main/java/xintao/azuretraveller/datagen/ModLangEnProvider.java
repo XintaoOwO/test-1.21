@@ -44,6 +44,9 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.OBSIDIAN_AXE, "Obsidian Axe");
         translationBuilder.add(ModItems.OBSIDIAN_SHOVEL, "Obsidian Shovel");
         translationBuilder.add(ModItems.OBSIDIAN_HOE, "Obsidian Hoe");
+        translationBuilder.add(ModItems.BLUEBERRY, "blueberry");
+        translationBuilder.add(ModItems.STRAWBERRY, "strawberry");
+        translationBuilder.add(ModItems.LUCKY_APPLE, "lucky_apple");
         
         translationBuilder.add(ModBlocks.SILVER_ORE, "Silver Ore");
         translationBuilder.add(ModBlocks.SILVER_BLOCK, "Silver Block");

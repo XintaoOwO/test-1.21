@@ -89,7 +89,7 @@ public class ModItemGroups
         Registry.register(Registries.ITEM_GROUP, AT_Food, 
                 ItemGroup.create(null, -1)
                         .displayName(Text.translatable("itemGroup.at_food"))
-                        .icon(() -> new ItemStack(ModItems.BLUEBERRY))
+                        .icon(() -> new ItemStack(ModItems.STRAWBERRY))
                         .entries((displayContext, entries) ->
                         {
                             entries.add(ModItems.BLUEBERRY);
