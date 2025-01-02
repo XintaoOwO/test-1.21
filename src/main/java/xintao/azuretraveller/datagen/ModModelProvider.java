@@ -42,5 +42,17 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.RAW_MYTHRIL, Models.GENERATED);
         itemModelGenerator.register(ModItems.CELESTITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_CELESTITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_HOE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUEBERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LUCKY_APPLE, Models.GENERATED);
     }
 }
