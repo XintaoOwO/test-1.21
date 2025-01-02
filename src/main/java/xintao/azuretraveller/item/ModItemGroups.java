@@ -17,6 +17,7 @@ public class ModItemGroups
     public static final RegistryKey<ItemGroup> AT_Materials = register("at_materials");
     public static final RegistryKey<ItemGroup> AT_Building_Blocks = register("at_building_blocks");
     public static final RegistryKey<ItemGroup> AT_Tools_Armors = register("at_tools_armors");
+    public static final RegistryKey<ItemGroup> AT_Food = register("at_food");
     
     private static RegistryKey<ItemGroup> register(String id) 
     {
@@ -26,7 +27,7 @@ public class ModItemGroups
     public static void registerModItemGroups()
     {
         Registry.register(Registries.ITEM_GROUP, AT_Materials, 
-                ItemGroup.create(null, -2)
+                ItemGroup.create(null, -3)
                         .displayName(Text.translatable("itemGroup.at_materials"))
                         .icon(() -> new ItemStack(ModItems.MYTHRIL_INGOT))
                         .entries((displayContext, entries) -> 
@@ -43,7 +44,7 @@ public class ModItemGroups
         );
         
         Registry.register(Registries.ITEM_GROUP, AT_Building_Blocks,
-                ItemGroup.create(null, -3)
+                ItemGroup.create(null, -4)
                         .displayName(Text.translatable("itemGroup.at_building_blocks"))
                         .icon(() -> new ItemStack(ModBlocks.CELESTITE_BLOCK))
                         .entries((displayContext, entries) ->
@@ -66,7 +67,7 @@ public class ModItemGroups
         );
         
         Registry.register(Registries.ITEM_GROUP, AT_Tools_Armors,
-                ItemGroup.create(null, -1)
+                ItemGroup.create(null, -2)
                         .displayName(Text.translatable("itemGroup.at_tools_armors"))
                         .icon(() -> new ItemStack(ModItems.MYTHRIL_PICKAXE))
                         .entries((displayContext, entries) ->
@@ -80,6 +81,20 @@ public class ModItemGroups
                             entries.add(ModItems.MYTHRIL_CHESTPLATE);
                             entries.add(ModItems.MYTHRIL_LEGGINGS);
                             entries.add(ModItems.MYTHRIL_BOOTS);
+                        }
+                )
+                .build()
+        );
+        
+        Registry.register(Registries.ITEM_GROUP, AT_Food, 
+                ItemGroup.create(null, -1)
+                        .displayName(Text.translatable("itemGroup.at_food"))
+                        .icon(() -> new ItemStack(ModItems.BLUEBERRY))
+                        .entries((displayContext, entries) ->
+                        {
+                            entries.add(ModItems.BLUEBERRY);
+                            entries.add(ModItems.STRAWBERRY);
+                            entries.add(ModItems.LUCKY_APPLE);
                         }
                 )
                 .build()

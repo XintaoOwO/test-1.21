@@ -13,7 +13,8 @@ public class AzureTravellerDataGenerator implements DataGeneratorEntrypoint
 		
 		pack.addProvider(ModBlockTagProvider::new);
 		//pack.addProvider(ModItemTagProvider::new);
-		//pack.addProvider(ModLangENUSProvider::new);
+		pack.addProvider(ModLangEnProvider::new);
+		pack.addProvider(ModLangZhProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);

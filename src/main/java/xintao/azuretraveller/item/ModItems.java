@@ -25,10 +25,18 @@ public class ModItems
     public static final Item MYTHRIL_BOOTS = registerItems("mythril_boots", new Item(new Item.Settings()));
     // 以下物品尚未添加.json
     public static final Item OBSIDIAN_INGOT = registerItems("obsidian_ingot", new Item(new Item.Settings()));
+    public static final Item OBSIDIAN_SWORD = registerItems("obsidian_sword", new Item(new Item.Settings()));
     public static final Item ONSIDIAN_PICKAXE = registerItems("obsidian_pickaxe", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_AXE = registerItems("obsidian_axe", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_SHOVEL = registerItems("obsidian_shovel", new Item(new Item.Settings()));
+    public static final Item OBSIDIAN_HOE = registerItems("obsidian_hoe", new Item(new Item.Settings()));
     
+    public static final Item LUCKY_APPLE = registerItems("lucky_apple", new Item(new Item.Settings()
+            .food(ModFoodComponents.LUCKY_APPLE)));
+    public static final Item STRAWBERRY = registerItems("strawberry", new Item(new Item.Settings()
+            .food(ModFoodComponents.STRAWBERRY)));
+    public static final Item BLUEBERRY = registerItems("blueberry", new Item(new Item.Settings()
+            .food(ModFoodComponents.BLUEBERRY)));
     
     private static Item registerItems(String id, Item item)
     {
