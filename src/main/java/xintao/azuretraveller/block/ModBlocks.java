@@ -35,7 +35,7 @@ public class ModBlocks
     public static final Block CELESTE_PLANKS = register("celeste_planks", 
             new Block(AbstractBlock.Settings.create()));
     
-    public static void registerBlockItems(String id, Block block)
+    public static void registerBlockItem(String id, Block block)
     {
         Item item = Registry.register(Registries.ITEM, Identifier.of(AzureTraveller.MOD_ID, id), new BlockItem(block, new Item.Settings()));
         
@@ -46,12 +46,12 @@ public class ModBlocks
     
     public static Block register(String id, Block block) 
     {
-        registerBlockItems(id, block);
+        registerBlockItem(id, block);
         
         return Registry.register(Registries.BLOCK, Identifier.of(AzureTraveller.MOD_ID, id), block);
     }
     
-    public static void registerModBlocks()
+    public static void registerModBlock()
     {
         AzureTraveller.LOGGER.info("Registering Blocks");
     }

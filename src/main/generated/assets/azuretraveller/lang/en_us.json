@@ -35,6 +35,7 @@
   "item.azuretraveller.silver_ingot": "Silver Ingot",
   "item.azuretraveller.strawberry": "strawberry",
   "itemGroup.at_building_blocks": "Azure Traveller Building Blocks",
+  "itemGroup.at_food": "Azure Traveller Food",
   "itemGroup.at_materials": "Azure Traveller Materials",
   "itemGroup.at_tools_armors": "Azure Traveller Tools & Armors"
 }

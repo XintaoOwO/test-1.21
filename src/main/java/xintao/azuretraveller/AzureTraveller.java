@@ -1,12 +1,13 @@
 package xintao.azuretraveller;
 
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.item.ModItemGroups;
 import xintao.azuretraveller.item.ModItems;
+import xintao.azuretraveller.tag.ModBlockTags;
+import xintao.azuretraveller.tag.ModItemTags;
 
 public class AzureTraveller implements ModInitializer
 {
@@ -23,9 +24,11 @@ public class AzureTraveller implements ModInitializer
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		ModItems.registerModItems();
-		ModItemGroups.registerModItemGroups();
-		ModBlocks.registerModBlocks();
+		ModItems.registerModItem();
+		ModBlocks.registerModBlock();
+		ModItemGroups.registerModItemGroup();
+		ModItemTags.registerModItemTag();
+		ModBlockTags.registerModBlockTag();
 		
 		LOGGER.info("Hello Fabric world!");
 	}

@@ -1,6 +1,5 @@
 package xintao.azuretraveller.item;
 
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -24,7 +23,7 @@ public class ModItemGroups
         return RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(AzureTraveller.MOD_ID, id));
     }
     
-    public static void registerModItemGroups()
+    public static void registerModItemGroup()
     {
         Registry.register(Registries.ITEM_GROUP, AT_Materials, 
                 ItemGroup.create(null, -3)

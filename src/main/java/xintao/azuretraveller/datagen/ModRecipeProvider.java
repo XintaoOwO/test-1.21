@@ -16,6 +16,8 @@ import net.minecraft.util.Identifier;
 import xintao.azuretraveller.AzureTraveller;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.item.ModItems;
+import xintao.azuretraveller.tag.ModBlockTags;
+import xintao.azuretraveller.tag.ModItemTags;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -48,9 +50,12 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .input('#', Ingredient.ofItems(Items.GRAVEL))
                 .criterion("has_item", RecipeProvider.conditionsFromItem(Items.GRAVEL))
                 .offerTo(exporter, Identifier.of(AzureTraveller.MOD_ID, "gravel_to_flint"));
-
-        //ShapelessRecipeJsonBuilder.create()
         
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.SUGAR, 1)
+                .pattern("##")
+                .input('#', ModItemTags.SUGAR_REFINING_TAG)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.BEETROOT))
+                .offerTo(exporter, Identifier.of(AzureTraveller.MOD_ID, "beetroot_to_sugar"));
         
         offerSmelting(exporter, MYTHRIL_INGOT, RecipeCategory.MISC, ModItems.MYTHRIL_INGOT, 
                 0.7f, 200, "mythril_ingot");
