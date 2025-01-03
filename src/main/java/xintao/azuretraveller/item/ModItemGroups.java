@@ -61,6 +61,15 @@ public class ModItemGroups
                             entries.add(ModBlocks.CELESTITE_BLOCK);
                             entries.add(ModBlocks.RAW_SILVER_BLOCK);
                             entries.add(ModBlocks.RAW_MYTHRIL_BLOCK);
+                            
+                            entries.add(ModBlocks.MYTHRIL_SLAB);
+                            entries.add(ModBlocks.MYTHRIL_STAIRS);
+                            entries.add(ModBlocks.MYTHRIL_FENCE);
+                            entries.add(ModBlocks.MYTHRIL_WALL);
+                            entries.add(ModBlocks.MYTHRIL_BUTTON);
+                            entries.add(ModBlocks.MYTHRIL_PRESSURE_PLATE);
+                            entries.add(ModBlocks.MYTHRIL_DOOR);
+                            entries.add(ModBlocks.MYTHRIL_TRAPDOOR);
                         }
                 )
                 .build()

@@ -33,19 +33,24 @@ public class ModBlocks
             new Block(AbstractBlock.Settings.create()));
     public static final Block CELESTE_PLANKS = register("celeste_planks", 
             new Block(AbstractBlock.Settings.create()));
-    // Do not add .json file until now
+    // Do not add .json file until now.
     public static final Block MYTHRIL_SLAB = register("mythril_slab", 
             new SlabBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_FENCE = register("mythril_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_WALL = register("mythril_wall",
+            new WallBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_STAIRS = register("mythril_stairs", 
             new StairsBlock(MYTHRIL_BLOCK.getDefaultState(), AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_BUTTON = register("mythril_button", 
             new ButtonBlock(BlockSetType.GOLD, 10, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_PRESSURE_PLATE = register("mythril_pressure_plate", 
             new PressurePlateBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
-    public static final Block MYTHRIL_FENCE = register("mythril_fence", 
-            new FenceBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
-    public static final Block MYTHRIL_WALL = register("mythril_wall", 
-            new WallBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    // Test: 测试一下属性为“金”时，门是否能被手直接打开，而不是需要红石激活才可以打开。
+    public static final Block MYTHRIL_DOOR = register("mythril_door", 
+            new DoorBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_TRAPDOOR = register("mythril_trapdoor", 
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     
     
     public static void registerBlockItem(String id, Block block)
