@@ -2,6 +2,7 @@ package xintao.azuretraveller.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
+import net.minecraft.item.NameTagItem;
 import net.minecraft.registry.RegistryWrapper;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.item.ModItems;
@@ -59,5 +60,13 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModBlocks.CELESTE_LOG, "Celeste Log");
         translationBuilder.add(ModBlocks.CELESTE_WOOD, "Celeste Wood");
         translationBuilder.add(ModBlocks.CELESTE_PLANKS, "Celeste Planks");
+        translationBuilder.add(ModBlocks.MYTHRIL_SLAB, "Mythril Slab");
+        translationBuilder.add(ModBlocks.MYTHRIL_STAIRS, "Mythril Stairs");
+        translationBuilder.add(ModBlocks.MYTHRIL_FENCE, "Mythril Fence");
+        translationBuilder.add(ModBlocks.MYTHRIL_WALL, "Mythril Wall");
+        translationBuilder.add(ModBlocks.MYTHRIL_BUTTON, "Mythril Button");
+        translationBuilder.add(ModBlocks.MYTHRIL_PRESSURE_PLATE, "Mythril Pressure Plate");
+        translationBuilder.add(ModBlocks.MYTHRIL_DOOR, "Mythril Door");
+        translationBuilder.add(ModBlocks.MYTHRIL_TRAPDOOR, "Mythril Trapdoor");
     }
 }

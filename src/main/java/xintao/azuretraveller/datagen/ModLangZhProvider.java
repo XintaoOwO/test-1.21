@@ -59,5 +59,13 @@ public class ModLangZhProvider extends FabricLanguageProvider
         translationBuilder.add(ModBlocks.CELESTE_LOG, "天蓝木原木");
         translationBuilder.add(ModBlocks.CELESTE_WOOD, "天蓝木");
         translationBuilder.add(ModBlocks.CELESTE_PLANKS, "天蓝木板");
+        translationBuilder.add(ModBlocks.MYTHRIL_SLAB, "秘银台阶");
+        translationBuilder.add(ModBlocks.MYTHRIL_STAIRS, "秘银楼梯");
+        translationBuilder.add(ModBlocks.MYTHRIL_FENCE, "秘银栅栏");
+        translationBuilder.add(ModBlocks.MYTHRIL_WALL, "秘银墙");
+        translationBuilder.add(ModBlocks.MYTHRIL_BUTTON, "秘银按钮");
+        translationBuilder.add(ModBlocks.MYTHRIL_PRESSURE_PLATE, "秘银压力板");
+        translationBuilder.add(ModBlocks.MYTHRIL_DOOR, "秘银门");
+        translationBuilder.add(ModBlocks.MYTHRIL_TRAPDOOR, "秘银活板门");
     }
 }
