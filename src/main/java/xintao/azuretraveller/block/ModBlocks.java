@@ -38,12 +38,14 @@ public class ModBlocks
             new SlabBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_FENCE = register("mythril_fence",
             new FenceBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_FENCE_GATE = register("mythril_fence_gate", 
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_WALL = register("mythril_wall",
             new WallBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_STAIRS = register("mythril_stairs", 
             new StairsBlock(MYTHRIL_BLOCK.getDefaultState(), AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_BUTTON = register("mythril_button", 
-            new ButtonBlock(BlockSetType.GOLD, 10, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+            new ButtonBlock(BlockSetType.OAK, 10, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_PRESSURE_PLATE = register("mythril_pressure_plate", 
             new PressurePlateBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     // Test: 测试一下属性为“金”时，门是否能被手直接打开，而不是需要红石激活才可以打开。

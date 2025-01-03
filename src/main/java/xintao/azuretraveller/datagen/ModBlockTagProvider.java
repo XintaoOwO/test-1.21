@@ -54,5 +54,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
                 .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.MYTHRIL_ORE)
                 .add(ModBlocks.CELESTITE_ORE);
+        
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.MYTHRIL_FENCE);
+        /*
+        // 这个标签决定模组添加的栅栏能否与木质的栅栏相连接。如果不添加此标签，那么栅栏将会与地狱砖栅栏相连。
+        // 因为在游戏里，木质栅栏作为一个整体，共用Wooden_Fences这个属性标签。
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.MYTHRIL_FENCE);
+        */
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.MYTHRIL_FENCE_GATE);
+        
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.MYTHRIL_WALL);
+        
+        getOrCreateTagBuilder(BlockTags.BUTTONS)
+                .add(ModBlocks.MYTHRIL_BUTTON);
     }
 }

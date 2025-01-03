@@ -62,6 +62,7 @@ public class ModLangZhProvider extends FabricLanguageProvider
         translationBuilder.add(ModBlocks.MYTHRIL_SLAB, "秘银台阶");
         translationBuilder.add(ModBlocks.MYTHRIL_STAIRS, "秘银楼梯");
         translationBuilder.add(ModBlocks.MYTHRIL_FENCE, "秘银栅栏");
+        translationBuilder.add(ModBlocks.MYTHRIL_FENCE_GATE, "秘银栅栏门");
         translationBuilder.add(ModBlocks.MYTHRIL_WALL, "秘银墙");
         translationBuilder.add(ModBlocks.MYTHRIL_BUTTON, "秘银按钮");
         translationBuilder.add(ModBlocks.MYTHRIL_PRESSURE_PLATE, "秘银压力板");

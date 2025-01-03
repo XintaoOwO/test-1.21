@@ -6,6 +6,8 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Model;
 import net.minecraft.data.client.Models;
+import net.minecraft.data.family.BlockFamily;
+import xintao.azuretraveller.block.ModBlockFamilies;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.item.ModItems;
 
@@ -20,11 +22,15 @@ public class ModModelProvider extends FabricModelProvider
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) 
     {
+        ModBlockFamilies.getFamilies()
+                .filter(BlockFamily::shouldGenerateModels)
+                .forEach(blockFamily ->
+                        blockStateModelGenerator.registerCubeAllModelTexturePool(blockFamily.getBaseBlock())
+                                .family(blockFamily));
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVER_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVER_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_SILVER_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MYTHRIL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_MYTHRIL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CELESTITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CELESTITE_BLOCK);

@@ -65,6 +65,7 @@ public class ModItemGroups
                             entries.add(ModBlocks.MYTHRIL_SLAB);
                             entries.add(ModBlocks.MYTHRIL_STAIRS);
                             entries.add(ModBlocks.MYTHRIL_FENCE);
+                            entries.add(ModBlocks.MYTHRIL_FENCE_GATE);
                             entries.add(ModBlocks.MYTHRIL_WALL);
                             entries.add(ModBlocks.MYTHRIL_BUTTON);
                             entries.add(ModBlocks.MYTHRIL_PRESSURE_PLATE);

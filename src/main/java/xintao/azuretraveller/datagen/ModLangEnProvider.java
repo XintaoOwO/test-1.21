@@ -44,9 +44,9 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.OBSIDIAN_AXE, "Obsidian Axe");
         translationBuilder.add(ModItems.OBSIDIAN_SHOVEL, "Obsidian Shovel");
         translationBuilder.add(ModItems.OBSIDIAN_HOE, "Obsidian Hoe");
-        translationBuilder.add(ModItems.BLUEBERRY, "blueberry");
-        translationBuilder.add(ModItems.STRAWBERRY, "strawberry");
-        translationBuilder.add(ModItems.LUCKY_APPLE, "lucky_apple");
+        translationBuilder.add(ModItems.BLUEBERRY, "Blueberry");
+        translationBuilder.add(ModItems.STRAWBERRY, "Strawberry");
+        translationBuilder.add(ModItems.LUCKY_APPLE, "Lucky Apple");
         
         translationBuilder.add(ModBlocks.SILVER_ORE, "Silver Ore");
         translationBuilder.add(ModBlocks.SILVER_BLOCK, "Silver Block");
@@ -62,6 +62,7 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModBlocks.MYTHRIL_SLAB, "Mythril Slab");
         translationBuilder.add(ModBlocks.MYTHRIL_STAIRS, "Mythril Stairs");
         translationBuilder.add(ModBlocks.MYTHRIL_FENCE, "Mythril Fence");
+        translationBuilder.add(ModBlocks.MYTHRIL_FENCE_GATE, "Mythril Fence Gate");
         translationBuilder.add(ModBlocks.MYTHRIL_WALL, "Mythril Wall");
         translationBuilder.add(ModBlocks.MYTHRIL_BUTTON, "Mythril Button");
         translationBuilder.add(ModBlocks.MYTHRIL_PRESSURE_PLATE, "Mythril Pressure Plate");
