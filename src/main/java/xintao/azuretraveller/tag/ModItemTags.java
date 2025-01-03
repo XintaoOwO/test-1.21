@@ -9,7 +9,6 @@ import xintao.azuretraveller.AzureTraveller;
 public class ModItemTags 
 {
     public static final TagKey<Item> SUGAR_REFINING_TAG = of("sugar_refining_tag");
-    public static final TagKey<Item> MINERAL_BASIC_ITEM = of("mineral_basic_item");
     
     private static TagKey<Item> of(String id) 
     {

@@ -2,7 +2,6 @@ package xintao.azuretraveller.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryWrapper;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.item.ModItems;
@@ -41,7 +40,7 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.MYTHRIL_BOOTS, "Mythril Boots");
         translationBuilder.add(ModItems.OBSIDIAN_INGOT, "Obsidian Ingot");
         translationBuilder.add(ModItems.OBSIDIAN_SWORD, "Obsidian Sword");
-        translationBuilder.add(ModItems.ONSIDIAN_PICKAXE, "Obsidian Pickaxe");
+        translationBuilder.add(ModItems.OBSIDIAN_PICKAXE, "Obsidian Pickaxe");
         translationBuilder.add(ModItems.OBSIDIAN_AXE, "Obsidian Axe");
         translationBuilder.add(ModItems.OBSIDIAN_SHOVEL, "Obsidian Shovel");
         translationBuilder.add(ModItems.OBSIDIAN_HOE, "Obsidian Hoe");

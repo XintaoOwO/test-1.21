@@ -23,10 +23,9 @@ public class ModItems
     public static final Item MYTHRIL_CHESTPLATE = registerItem("mythril_chestplate", new Item(new Item.Settings()));
     public static final Item MYTHRIL_LEGGINGS = registerItem("mythril_leggings", new Item(new Item.Settings()));
     public static final Item MYTHRIL_BOOTS = registerItem("mythril_boots", new Item(new Item.Settings()));
-    // 以下物品尚未添加.json
     public static final Item OBSIDIAN_INGOT = registerItem("obsidian_ingot", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_SWORD = registerItem("obsidian_sword", new Item(new Item.Settings()));
-    public static final Item ONSIDIAN_PICKAXE = registerItem("obsidian_pickaxe", new Item(new Item.Settings()));
+    public static final Item OBSIDIAN_PICKAXE = registerItem("obsidian_pickaxe", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_AXE = registerItem("obsidian_axe", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_SHOVEL = registerItem("obsidian_shovel", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_HOE = registerItem("obsidian_hoe", new Item(new Item.Settings()));
@@ -46,5 +45,6 @@ public class ModItems
     public static void registerModItem()
     {
         AzureTraveller.LOGGER.info("Registering Items");
+        AzureTraveller.LOGGER.info("正在注册物品");
     }
 }

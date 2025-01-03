@@ -1,7 +1,6 @@
 package xintao.azuretraveller.block;
 
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -34,10 +33,25 @@ public class ModBlocks
             new Block(AbstractBlock.Settings.create()));
     public static final Block CELESTE_PLANKS = register("celeste_planks", 
             new Block(AbstractBlock.Settings.create()));
+    // Do not add .json file until now
+    public static final Block MYTHRIL_SLAB = register("mythril_slab", 
+            new SlabBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_STAIRS = register("mythril_stairs", 
+            new StairsBlock(MYTHRIL_BLOCK.getDefaultState(), AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_BUTTON = register("mythril_button", 
+            new ButtonBlock(BlockSetType.GOLD, 10, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_PRESSURE_PLATE = register("mythril_pressure_plate", 
+            new PressurePlateBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_FENCE = register("mythril_fence", 
+            new FenceBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    public static final Block MYTHRIL_WALL = register("mythril_wall", 
+            new WallBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+    
     
     public static void registerBlockItem(String id, Block block)
     {
-        Item item = Registry.register(Registries.ITEM, Identifier.of(AzureTraveller.MOD_ID, id), new BlockItem(block, new Item.Settings()));
+        Item item = Registry.register(Registries.ITEM, Identifier.of(AzureTraveller.MOD_ID, id), 
+                new BlockItem(block, new Item.Settings()));
         
         if (item instanceof BlockItem) {
             ((BlockItem)item).appendBlocks(Item.BLOCK_ITEMS, item);
@@ -54,5 +68,6 @@ public class ModBlocks
     public static void registerModBlock()
     {
         AzureTraveller.LOGGER.info("Registering Blocks");
+        AzureTraveller.LOGGER.info("正在注册方块");
     }
 }

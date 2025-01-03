@@ -40,7 +40,7 @@ public class ModLangZhProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.MYTHRIL_BOOTS, "秘银靴子");
         translationBuilder.add(ModItems.OBSIDIAN_INGOT, "黑曜石锭");
         translationBuilder.add(ModItems.OBSIDIAN_SWORD, "黑曜石剑");
-        translationBuilder.add(ModItems.ONSIDIAN_PICKAXE, "黑曜石镐");
+        translationBuilder.add(ModItems.OBSIDIAN_PICKAXE, "黑曜石镐");
         translationBuilder.add(ModItems.OBSIDIAN_AXE, "黑曜石斧");
         translationBuilder.add(ModItems.OBSIDIAN_SHOVEL, "黑曜石锹");
         translationBuilder.add(ModItems.OBSIDIAN_HOE, "黑曜石锄");

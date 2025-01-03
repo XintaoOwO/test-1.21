@@ -9,7 +9,6 @@ import xintao.azuretraveller.AzureTraveller;
 public class ModBlockTags 
 {
     public static final TagKey<Block> ORE_LIST = of("ore_list");
-    public static final TagKey<Block> MINERAL_STD_BLOCK = of("mineral_std_block");
     
     private static TagKey<Block> of(String id) 
     {

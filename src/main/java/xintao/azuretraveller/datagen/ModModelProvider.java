@@ -38,6 +38,7 @@ public class ModModelProvider extends FabricModelProvider
     {
         itemModelGenerator.register(ModItems.SILVER_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_SILVER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MYTHRIL_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_MYTHRIL, Models.GENERATED);
         itemModelGenerator.register(ModItems.CELESTITE_INGOT, Models.GENERATED);
@@ -51,6 +52,12 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.MYTHRIL_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.MYTHRIL_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.MYTHRIL_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_HOE, Models.GENERATED);
+        
         itemModelGenerator.register(ModItems.BLUEBERRY, Models.GENERATED);
         itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
         itemModelGenerator.register(ModItems.LUCKY_APPLE, Models.GENERATED);

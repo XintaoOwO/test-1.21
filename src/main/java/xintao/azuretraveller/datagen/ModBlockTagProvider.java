@@ -42,11 +42,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
                 .add(ModBlocks.CELESTITE_ORE)
                 .add(ModBlocks.CELESTITE_BLOCK);
         
-        getOrCreateTagBuilder(ModBlockTags.MINERAL_STD_BLOCK)
-                .add(ModBlocks.SILVER_BLOCK)
-                .add(ModBlocks.MYTHRIL_BLOCK)
-                .add(ModBlocks.CELESTITE_BLOCK);
-        
         getOrCreateTagBuilder(ModBlockTags.ORE_LIST)
                 .forceAddTag(BlockTags.COAL_ORES)
                 .forceAddTag(BlockTags.COPPER_ORES)

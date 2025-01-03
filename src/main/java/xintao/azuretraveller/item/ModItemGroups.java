@@ -35,6 +35,7 @@ public class ModItemGroups
                              entries.add(ModItems.RAW_MYTHRIL);
                              entries.add(ModItems.RAW_CELESTITE);
                              entries.add(ModItems.SILVER_INGOT);
+                             entries.add(ModItems.OBSIDIAN_INGOT);
                              entries.add(ModItems.MYTHRIL_INGOT);
                              entries.add(ModItems.CELESTITE_INGOT);
                          }
@@ -71,6 +72,11 @@ public class ModItemGroups
                         .icon(() -> new ItemStack(ModItems.MYTHRIL_PICKAXE))
                         .entries((displayContext, entries) ->
                         {
+                            entries.add(ModItems.OBSIDIAN_SWORD);
+                            entries.add(ModItems.OBSIDIAN_PICKAXE);
+                            entries.add(ModItems.OBSIDIAN_AXE);
+                            entries.add(ModItems.OBSIDIAN_SHOVEL);
+                            entries.add(ModItems.OBSIDIAN_HOE);
                             entries.add(ModItems.MYTHRIL_SWORD);
                             entries.add(ModItems.MYTHRIL_PICKAXE);
                             entries.add(ModItems.MYTHRIL_AXE);
@@ -100,5 +106,6 @@ public class ModItemGroups
         );
     
         AzureTraveller.LOGGER.info("Registering Item Groups");
+        AzureTraveller.LOGGER.info("正在注册物品分类组");
     }
 }

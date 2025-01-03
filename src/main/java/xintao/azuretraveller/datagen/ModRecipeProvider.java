@@ -16,7 +16,6 @@ import net.minecraft.util.Identifier;
 import xintao.azuretraveller.AzureTraveller;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.item.ModItems;
-import xintao.azuretraveller.tag.ModBlockTags;
 import xintao.azuretraveller.tag.ModItemTags;
 
 import java.util.List;
