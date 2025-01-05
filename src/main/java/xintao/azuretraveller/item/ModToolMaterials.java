@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial 
 {
-    MYTHRIL(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1800, 10.0f, 3.5f, 18,
+    MYTHRIL(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1800, 10.0f, 5.0f, 18,
             () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT));
     
     private final TagKey<Block> inverseTag;
