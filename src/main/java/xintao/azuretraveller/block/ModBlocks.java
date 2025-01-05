@@ -50,7 +50,6 @@ public class ModBlocks
             new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(MYTHRIL_BLOCK).nonOpaque()));
     public static final Block MYTHRIL_TRAPDOOR = register("mythril_trapdoor", 
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(MYTHRIL_BLOCK).nonOpaque()));
-    
     public static final Block CELESTE_WOOD_DOOR = register("celeste_wood_door", 
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(CELESTE_PLANKS).nonOpaque().burnable()));
     

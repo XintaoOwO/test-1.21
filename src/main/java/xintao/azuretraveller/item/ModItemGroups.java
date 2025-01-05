@@ -76,6 +76,7 @@ public class ModItemGroups
                         .icon(() -> new ItemStack(ModBlocks.MYTHRIL_FENCE))
                         .entries((displayContext, entries) ->
                         {
+                            entries.add(ModBlocks.CELESTE_WOOD_DOOR);
                             entries.add(ModBlocks.MYTHRIL_FENCE);
                             entries.add(ModBlocks.MYTHRIL_FENCE_GATE);
                             entries.add(ModBlocks.MYTHRIL_WALL);
