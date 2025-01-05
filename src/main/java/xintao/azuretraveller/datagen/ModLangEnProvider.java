@@ -19,6 +19,7 @@ public class ModLangEnProvider extends FabricLanguageProvider
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder)
     {
         translationBuilder.add("itemGroup.at_building_blocks", "Azure Traveller Building Blocks");
+        translationBuilder.add("itemGroup.at_decorative_blocks", "Azure Traveller Decorative Blocks");
         translationBuilder.add("itemGroup.at_materials", "Azure Traveller Materials");
         translationBuilder.add("itemGroup.at_tools_armors", "Azure Traveller Tools & Armors");
         translationBuilder.add("itemGroup.at_food", "Azure Traveller Food");

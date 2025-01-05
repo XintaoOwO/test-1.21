@@ -26,14 +26,12 @@ public class ModBlocks
             new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
     public static final Block RAW_SILVER_BLOCK = register("raw_silver_block",
             new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
-    // 以下物品未添加.json文件
     public static final Block CELESTE_LOG = register("celeste_log", 
             new Block(AbstractBlock.Settings.create()));
     public static final Block CELESTE_WOOD = register("celeste_wood", 
             new Block(AbstractBlock.Settings.create()));
     public static final Block CELESTE_PLANKS = register("celeste_planks", 
             new Block(AbstractBlock.Settings.create()));
-    // Do not add .json file until now.
     public static final Block MYTHRIL_SLAB = register("mythril_slab", 
             new SlabBlock(AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_FENCE = register("mythril_fence",
@@ -48,9 +46,8 @@ public class ModBlocks
             new ButtonBlock(BlockSetType.OAK, 10, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     public static final Block MYTHRIL_PRESSURE_PLATE = register("mythril_pressure_plate", 
             new PressurePlateBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
-    // Test: 测试一下属性为“金”时，门是否能被手直接打开，而不是需要红石激活才可以打开。
     public static final Block MYTHRIL_DOOR = register("mythril_door", 
-            new DoorBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK).nonOpaque()));
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(MYTHRIL_BLOCK).nonOpaque()));
     public static final Block MYTHRIL_TRAPDOOR = register("mythril_trapdoor", 
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(MYTHRIL_BLOCK).nonOpaque()));
     

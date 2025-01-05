@@ -19,6 +19,7 @@ public class ModLangZhProvider extends FabricLanguageProvider
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) 
     {
         translationBuilder.add("itemGroup.at_building_blocks", "蔚蓝旅行家 建筑方块");
+        translationBuilder.add("itemGroup.at_decorative_blocks", "蔚蓝旅行家 装饰性方块");
         translationBuilder.add("itemGroup.at_materials", "蔚蓝旅行家 材料");
         translationBuilder.add("itemGroup.at_tools_armors", "蔚蓝旅行家 工具装备");
         translationBuilder.add("itemGroup.at_food", "蔚蓝旅行家 食物");
