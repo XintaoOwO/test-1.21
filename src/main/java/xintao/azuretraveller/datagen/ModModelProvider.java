@@ -47,20 +47,23 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.RAW_MYTHRIL, Models.GENERATED);
         itemModelGenerator.register(ModItems.CELESTITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_CELESTITE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MYTHRIL_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MYTHRIL_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MYTHRIL_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MYTHRIL_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MYTHRIL_HOE, Models.GENERATED);
+        
+        itemModelGenerator.register(ModItems.MYTHRIL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_HOE, Models.HANDHELD);
+        
         itemModelGenerator.register(ModItems.MYTHRIL_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.MYTHRIL_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.MYTHRIL_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.MYTHRIL_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.OBSIDIAN_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.OBSIDIAN_PICKAXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.OBSIDIAN_AXE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.OBSIDIAN_SHOVEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.OBSIDIAN_HOE, Models.GENERATED);
+        
+        itemModelGenerator.register(ModItems.OBSIDIAN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSIDIAN_HOE, Models.HANDHELD);
         
         itemModelGenerator.register(ModItems.BLUEBERRY, Models.GENERATED);
         itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
