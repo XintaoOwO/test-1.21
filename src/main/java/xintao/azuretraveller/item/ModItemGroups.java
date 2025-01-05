@@ -29,7 +29,7 @@ public class ModItemGroups
         Registry.register(Registries.ITEM_GROUP, AT_Materials, 
                 ItemGroup.create(null, -3)
                         .displayName(Text.translatable("itemGroup.at_materials"))
-                        .icon(() -> new ItemStack(ModItems.MYTHRIL_INGOT))
+                        .icon(() -> new ItemStack(ModItems.CELESTITE_INGOT))
                         .entries((displayContext, entries) -> 
                          {
                              entries.add(ModItems.RAW_SILVER);
@@ -47,7 +47,7 @@ public class ModItemGroups
         Registry.register(Registries.ITEM_GROUP, AT_Building_Blocks,
                 ItemGroup.create(null, -5)
                         .displayName(Text.translatable("itemGroup.at_building_blocks"))
-                        .icon(() -> new ItemStack(ModBlocks.CELESTITE_BLOCK))
+                        .icon(() -> new ItemStack(ModBlocks.MYTHRIL_BLOCK))
                         .entries((displayContext, entries) ->
                         {
                             entries.add(ModBlocks.CELESTE_LOG);
