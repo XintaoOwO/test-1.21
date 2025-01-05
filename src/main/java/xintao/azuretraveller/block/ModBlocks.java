@@ -50,9 +50,12 @@ public class ModBlocks
             new PressurePlateBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
     // Test: 测试一下属性为“金”时，门是否能被手直接打开，而不是需要红石激活才可以打开。
     public static final Block MYTHRIL_DOOR = register("mythril_door", 
-            new DoorBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+            new DoorBlock(BlockSetType.GOLD, AbstractBlock.Settings.copy(MYTHRIL_BLOCK).nonOpaque()));
     public static final Block MYTHRIL_TRAPDOOR = register("mythril_trapdoor", 
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(MYTHRIL_BLOCK)));
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(MYTHRIL_BLOCK).nonOpaque()));
+    
+    public static final Block CELESTE_WOOD_DOOR = register("celeste_wood_door", 
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(CELESTE_PLANKS).nonOpaque().burnable()));
     
     
     public static void registerBlockItem(String id, Block block)

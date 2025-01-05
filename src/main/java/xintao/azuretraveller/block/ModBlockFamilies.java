@@ -24,6 +24,19 @@ public class ModBlockFamilies
             .trapdoor(ModBlocks.MYTHRIL_TRAPDOOR)
             .unlockCriterionName("has_mythril_block")
             .build();
+    
+    public static final BlockFamily CELESTE_PLANKS = register(ModBlocks.CELESTE_PLANKS)
+            //.slab()
+            //.stairs()
+            //.fence()
+            //.fenceGate()
+            //.wall()
+            //.button()
+            //.pressurePlate()
+            .door(ModBlocks.CELESTE_WOOD_DOOR)
+            //.trapdoor()
+            .unlockCriterionName("has_celeste_planks")
+            .build();
 
     public static BlockFamily.Builder register(Block baseBlock) 
     {

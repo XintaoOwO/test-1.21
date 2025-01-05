@@ -68,5 +68,6 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModBlocks.MYTHRIL_PRESSURE_PLATE, "Mythril Pressure Plate");
         translationBuilder.add(ModBlocks.MYTHRIL_DOOR, "Mythril Door");
         translationBuilder.add(ModBlocks.MYTHRIL_TRAPDOOR, "Mythril Trapdoor");
+        translationBuilder.add(ModBlocks.CELESTE_WOOD_DOOR, "Celeste Wood Door");
     }
 }

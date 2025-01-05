@@ -15,6 +15,7 @@ public class ModItemGroups
 {
     public static final RegistryKey<ItemGroup> AT_Materials = register("at_materials");
     public static final RegistryKey<ItemGroup> AT_Building_Blocks = register("at_building_blocks");
+    public static final RegistryKey<ItemGroup> AT_Decorative_Blocks = register("at_decorative_blocks");
     public static final RegistryKey<ItemGroup> AT_Tools_Armors = register("at_tools_armors");
     public static final RegistryKey<ItemGroup> AT_Food = register("at_food");
     
@@ -44,7 +45,7 @@ public class ModItemGroups
         );
         
         Registry.register(Registries.ITEM_GROUP, AT_Building_Blocks,
-                ItemGroup.create(null, -4)
+                ItemGroup.create(null, -5)
                         .displayName(Text.translatable("itemGroup.at_building_blocks"))
                         .icon(() -> new ItemStack(ModBlocks.CELESTITE_BLOCK))
                         .entries((displayContext, entries) ->
@@ -64,6 +65,17 @@ public class ModItemGroups
                             
                             entries.add(ModBlocks.MYTHRIL_SLAB);
                             entries.add(ModBlocks.MYTHRIL_STAIRS);
+                        }
+                )
+                .build()
+        );
+        
+        Registry.register(Registries.ITEM_GROUP, AT_Decorative_Blocks, 
+                ItemGroup.create(null, -4)
+                        .displayName(Text.translatable("itemGroup.at_decorative_blocks"))
+                        .icon(() -> new ItemStack(ModBlocks.MYTHRIL_FENCE))
+                        .entries((displayContext, entries) ->
+                        {
                             entries.add(ModBlocks.MYTHRIL_FENCE);
                             entries.add(ModBlocks.MYTHRIL_FENCE_GATE);
                             entries.add(ModBlocks.MYTHRIL_WALL);

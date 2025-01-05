@@ -68,5 +68,6 @@ public class ModLangZhProvider extends FabricLanguageProvider
         translationBuilder.add(ModBlocks.MYTHRIL_PRESSURE_PLATE, "秘银压力板");
         translationBuilder.add(ModBlocks.MYTHRIL_DOOR, "秘银门");
         translationBuilder.add(ModBlocks.MYTHRIL_TRAPDOOR, "秘银活板门");
+        translationBuilder.add(ModBlocks.CELESTE_WOOD_DOOR, "天蓝木门");
     }
 }

@@ -34,9 +34,7 @@ public class ModModelProvider extends FabricModelProvider
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_MYTHRIL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CELESTITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CELESTITE_BLOCK);
-        
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CELESTE_WOOD);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CELESTE_PLANKS);
     }
 
     @Override
