@@ -1,17 +1,18 @@
 package xintao.azuretraveller.item;
 
+import java.util.function.Supplier;
 import com.google.common.base.Suppliers;
 import net.minecraft.block.Block;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
-
-import java.util.function.Supplier;
+import xintao.azuretraveller.tag.ModBlockTags;
 
 public enum ModToolMaterials implements ToolMaterial 
 {
-    MYTHRIL(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1800, 10.0f, 5.0f, 18,
+    OBSIDIAN(ModBlockTags.INCORRECT_FOR_OBSIDIAN_TOOL, 2048, 8.0f, 2.5f, 10,
+            () -> Ingredient.ofItems(ModItems.OBSIDIAN_INGOT)), 
+    MYTHRIL(ModBlockTags.INCORRECT_FOR_MYTHRIL_TOOL, 1800, 10.0f, 5.0f, 18,
             () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT));
     
     private final TagKey<Block> inverseTag;

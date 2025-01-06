@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "textures": {
-    "bottom": "azuretraveller:block/mythril_door_bottom",
-    "top": "azuretraveller:block/mythril_door_top"
-  }
-}

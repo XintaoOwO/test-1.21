@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "azuretraveller:block/mythril_block",
-    "side": "azuretraveller:block/mythril_block",
-    "top": "azuretraveller:block/mythril_block"
-  }
-}

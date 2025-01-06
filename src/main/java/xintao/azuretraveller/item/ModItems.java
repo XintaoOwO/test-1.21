@@ -42,11 +42,21 @@ public class ModItems
     public static final Item MYTHRIL_LEGGINGS = registerItem("mythril_leggings", new Item(new Item.Settings()));
     public static final Item MYTHRIL_BOOTS = registerItem("mythril_boots", new Item(new Item.Settings()));
     public static final Item OBSIDIAN_INGOT = registerItem("obsidian_ingot", new Item(new Item.Settings()));
-    public static final Item OBSIDIAN_SWORD = registerItem("obsidian_sword", new Item(new Item.Settings()));
-    public static final Item OBSIDIAN_PICKAXE = registerItem("obsidian_pickaxe", new Item(new Item.Settings()));
-    public static final Item OBSIDIAN_AXE = registerItem("obsidian_axe", new Item(new Item.Settings()));
-    public static final Item OBSIDIAN_SHOVEL = registerItem("obsidian_shovel", new Item(new Item.Settings()));
-    public static final Item OBSIDIAN_HOE = registerItem("obsidian_hoe", new Item(new Item.Settings()));
+    public static final Item OBSIDIAN_SWORD = registerItem("obsidian_sword", new SwordItem(ModToolMaterials.OBSIDIAN, 
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 
+                    3, -2.4f))));
+    public static final Item OBSIDIAN_PICKAXE = registerItem("obsidian_pickaxe", new PickaxeItem(ModToolMaterials.OBSIDIAN, 
+            new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 
+                    1.0f, -2.8f))));
+    public static final Item OBSIDIAN_AXE = registerItem("obsidian_axe", new AxeItem(ModToolMaterials.OBSIDIAN, 
+            new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 
+                    5.0f, -3.0f))));
+    public static final Item OBSIDIAN_SHOVEL = registerItem("obsidian_shovel", new ShovelItem(ModToolMaterials.OBSIDIAN, 
+            new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 
+                    1.5f, -3.0f))));
+    public static final Item OBSIDIAN_HOE = registerItem("obsidian_hoe", new HoeItem(ModToolMaterials.OBSIDIAN, 
+            new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 
+                    -3.0f, 0.0f))));
     
     private static Item registerItem(String id, Item item)
     {

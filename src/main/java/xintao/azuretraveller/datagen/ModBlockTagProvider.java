@@ -21,27 +21,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup)
     {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.MYTHRIL_ORE)
-                .add(ModBlocks.MYTHRIL_BLOCK)
-                .add(ModBlocks.RAW_MYTHRIL_BLOCK)
-                .add(ModBlocks.CELESTITE_ORE)
-                .add(ModBlocks.CELESTITE_BLOCK)
                 .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.SILVER_BLOCK)
-                .add(ModBlocks.RAW_SILVER_BLOCK);
-        
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.SILVER_ORE)
-                .add(ModBlocks.SILVER_BLOCK)
-                .add(ModBlocks.RAW_SILVER_BLOCK);
-        
-        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.RAW_SILVER_BLOCK)
                 .add(ModBlocks.MYTHRIL_ORE)
                 .add(ModBlocks.MYTHRIL_BLOCK)
                 .add(ModBlocks.RAW_MYTHRIL_BLOCK)
                 .add(ModBlocks.CELESTITE_ORE)
                 .add(ModBlocks.CELESTITE_BLOCK);
         
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SILVER_ORE)
+                .add(ModBlocks.SILVER_BLOCK)
+                .add(ModBlocks.RAW_SILVER_BLOCK);
+        
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
+        
+        getOrCreateTagBuilder(ModBlockTags.NEEDS_OBSIDIAN_TOOL)
+                .add(ModBlocks.MYTHRIL_ORE)
+                .add(ModBlocks.MYTHRIL_BLOCK)
+                .add(ModBlocks.RAW_MYTHRIL_BLOCK)
+                .add(ModBlocks.CELESTITE_ORE)
+                .add(ModBlocks.CELESTITE_BLOCK);
+        /*
         getOrCreateTagBuilder(ModBlockTags.ORE_LIST)
                 .forceAddTag(BlockTags.COAL_ORES)
                 .forceAddTag(BlockTags.COPPER_ORES)
@@ -54,7 +56,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
                 .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.MYTHRIL_ORE)
                 .add(ModBlocks.CELESTITE_ORE);
-        
+        */
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.MYTHRIL_FENCE);
         /*
