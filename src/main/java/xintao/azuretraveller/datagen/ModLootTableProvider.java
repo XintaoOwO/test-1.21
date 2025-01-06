@@ -16,7 +16,6 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.item.ModItems;
-
 import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider

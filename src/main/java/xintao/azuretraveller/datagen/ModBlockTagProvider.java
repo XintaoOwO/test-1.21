@@ -6,7 +6,6 @@ import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.tag.ModBlockTags;
-
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
