@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import xintao.azuretraveller.block.ModBlocks;
-import xintao.azuretraveller.tag.ModBlockTags;
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
@@ -35,10 +34,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
                 .add(ModBlocks.RAW_SILVER_BLOCK);
         
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
-        
+        /*
         getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .addTag(ModBlockTags.INCORRECT_FOR_OBSIDIAN_TOOL);
-        
+                
         getOrCreateTagBuilder(ModBlockTags.NEEDS_OBSIDIAN_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MYTHRIL_ORE)
@@ -54,7 +53,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
                 .addTag(ModBlockTags.NEEDS_OBSIDIAN_TOOL);
         
         getOrCreateTagBuilder(ModBlockTags.INCORRECT_FOR_MYTHRIL_TOOL);
-        /*
+        
         getOrCreateTagBuilder(ModBlockTags.ORE_LIST)
                 .forceAddTag(BlockTags.COAL_ORES)
                 .forceAddTag(BlockTags.COPPER_ORES)
