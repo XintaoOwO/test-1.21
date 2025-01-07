@@ -12,7 +12,7 @@ public enum ModToolMaterials implements ToolMaterial
 {
     OBSIDIAN(ModBlockTags.INCORRECT_FOR_OBSIDIAN_TOOL, 2048, 8.0f, 2.5f, 10,
             () -> Ingredient.ofItems(ModItems.OBSIDIAN_INGOT)), 
-    MYTHRIL(ModBlockTags.INCORRECT_FOR_MYTHRIL_TOOL, 1800, 10.0f, 5.0f, 18,
+    MYTHRIL(ModBlockTags.INCORRECT_FOR_MYTHRIL_TOOL, 1200, 10.0f, 5.0f, 18,
             () -> Ingredient.ofItems(ModItems.MYTHRIL_INGOT));
     
     private final TagKey<Block> inverseTag;

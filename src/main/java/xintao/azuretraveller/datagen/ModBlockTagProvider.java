@@ -36,12 +36,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider
         
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
         
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .addTag(ModBlockTags.INCORRECT_FOR_OBSIDIAN_TOOL);
+        
         getOrCreateTagBuilder(ModBlockTags.NEEDS_OBSIDIAN_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MYTHRIL_ORE)
                 .add(ModBlocks.MYTHRIL_BLOCK)
                 .add(ModBlocks.RAW_MYTHRIL_BLOCK)
                 .add(ModBlocks.CELESTITE_ORE)
                 .add(ModBlocks.CELESTITE_BLOCK);
+        
+        getOrCreateTagBuilder(ModBlockTags.INCORRECT_FOR_OBSIDIAN_TOOL)
+                .addTag(ModBlockTags.INCORRECT_FOR_MYTHRIL_TOOL);
+        
+        getOrCreateTagBuilder(ModBlockTags.NEEDS_MYTHRIL_TOOL)
+                .addTag(ModBlockTags.NEEDS_OBSIDIAN_TOOL);
+        
+        getOrCreateTagBuilder(ModBlockTags.INCORRECT_FOR_MYTHRIL_TOOL);
         /*
         getOrCreateTagBuilder(ModBlockTags.ORE_LIST)
                 .forceAddTag(BlockTags.COAL_ORES)
