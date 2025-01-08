@@ -6,6 +6,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.family.BlockFamily;
+import net.minecraft.item.ArmorItem;
 import xintao.azuretraveller.block.ModBlockFamilies;
 import xintao.azuretraveller.block.ModBlocks;
 import xintao.azuretraveller.item.ModItems;
@@ -53,10 +54,14 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.MYTHRIL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MYTHRIL_HOE, Models.HANDHELD);
         
-        itemModelGenerator.register(ModItems.MYTHRIL_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MYTHRIL_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MYTHRIL_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MYTHRIL_BOOTS, Models.GENERATED);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.MYTHRIL_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.MYTHRIL_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.MYTHRIL_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.MYTHRIL_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.OBSIDIAN_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.OBSIDIAN_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.OBSIDIAN_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.OBSIDIAN_BOOTS);
         
         itemModelGenerator.register(ModItems.OBSIDIAN_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.OBSIDIAN_PICKAXE, Models.HANDHELD);
