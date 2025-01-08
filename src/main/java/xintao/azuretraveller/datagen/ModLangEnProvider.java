@@ -29,6 +29,7 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.RAW_SILVER, "Raw Silver");
         translationBuilder.add(ModItems.RAW_MYTHRIL, "Raw Mythril");
         translationBuilder.add(ModItems.RAW_CELESTITE, "Raw Celestite");
+        
         translationBuilder.add(ModItems.MYTHRIL_SWORD, "Mythril Sword");
         translationBuilder.add(ModItems.MYTHRIL_PICKAXE, "Mythril Pickaxe");
         translationBuilder.add(ModItems.MYTHRIL_AXE, "Mythril Axe");
@@ -44,6 +45,11 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.OBSIDIAN_AXE, "Obsidian Axe");
         translationBuilder.add(ModItems.OBSIDIAN_SHOVEL, "Obsidian Shovel");
         translationBuilder.add(ModItems.OBSIDIAN_HOE, "Obsidian Hoe");
+        translationBuilder.add(ModItems.OBSIDIAN_HELMET, "Obsidian Helmet");
+        translationBuilder.add(ModItems.OBSIDIAN_CHESTPLATE, "Obsidian Chestplate");
+        translationBuilder.add(ModItems.OBSIDIAN_LEGGINGS, "Obsidian Leggings");
+        translationBuilder.add(ModItems.OBSIDIAN_BOOTS, "Obsidian Boots");
+        
         translationBuilder.add(ModItems.BLUEBERRY, "Blueberry");
         translationBuilder.add(ModItems.STRAWBERRY, "Strawberry");
         translationBuilder.add(ModItems.LUCKY_APPLE, "Lucky Apple");
@@ -59,6 +65,7 @@ public class ModLangEnProvider extends FabricLanguageProvider
         translationBuilder.add(ModBlocks.CELESTE_LOG, "Celeste Log");
         translationBuilder.add(ModBlocks.CELESTE_WOOD, "Celeste Wood");
         translationBuilder.add(ModBlocks.CELESTE_PLANKS, "Celeste Planks");
+        
         translationBuilder.add(ModBlocks.MYTHRIL_SLAB, "Mythril Slab");
         translationBuilder.add(ModBlocks.MYTHRIL_STAIRS, "Mythril Stairs");
         translationBuilder.add(ModBlocks.MYTHRIL_FENCE, "Mythril Fence");

@@ -29,6 +29,7 @@ public class ModLangZhProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.RAW_SILVER, "粗银");
         translationBuilder.add(ModItems.RAW_MYTHRIL, "粗秘银");
         translationBuilder.add(ModItems.RAW_CELESTITE, "天蓝石");
+        
         translationBuilder.add(ModItems.MYTHRIL_SWORD, "秘银剑");
         translationBuilder.add(ModItems.MYTHRIL_PICKAXE, "秘银镐");
         translationBuilder.add(ModItems.MYTHRIL_AXE, "秘银斧");
@@ -44,6 +45,11 @@ public class ModLangZhProvider extends FabricLanguageProvider
         translationBuilder.add(ModItems.OBSIDIAN_AXE, "黑曜石斧");
         translationBuilder.add(ModItems.OBSIDIAN_SHOVEL, "黑曜石锹");
         translationBuilder.add(ModItems.OBSIDIAN_HOE, "黑曜石锄");
+        translationBuilder.add(ModItems.OBSIDIAN_HELMET, "黑曜石头盔");
+        translationBuilder.add(ModItems.OBSIDIAN_CHESTPLATE, "黑曜石胸甲");
+        translationBuilder.add(ModItems.OBSIDIAN_LEGGINGS, "黑曜石护腿");
+        translationBuilder.add(ModItems.OBSIDIAN_BOOTS, "黑曜石靴子");
+        
         translationBuilder.add(ModItems.BLUEBERRY, "蓝莓");
         translationBuilder.add(ModItems.STRAWBERRY, "草莓");
         translationBuilder.add(ModItems.LUCKY_APPLE, "幸运果");
@@ -59,6 +65,7 @@ public class ModLangZhProvider extends FabricLanguageProvider
         translationBuilder.add(ModBlocks.CELESTE_LOG, "天蓝木原木");
         translationBuilder.add(ModBlocks.CELESTE_WOOD, "天蓝木");
         translationBuilder.add(ModBlocks.CELESTE_PLANKS, "天蓝木板");
+        
         translationBuilder.add(ModBlocks.MYTHRIL_SLAB, "秘银台阶");
         translationBuilder.add(ModBlocks.MYTHRIL_STAIRS, "秘银楼梯");
         translationBuilder.add(ModBlocks.MYTHRIL_FENCE, "秘银栅栏");

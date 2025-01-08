@@ -14,6 +14,7 @@ public class ModItems
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot", new Item(new Item.Settings()));
     public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new Item.Settings()));
     public static final Item CELESTITE_INGOT = registerItem("celestite_ingot", new Item(new Item.Settings()));
+    public static final Item OBSIDIAN_INGOT = registerItem("obsidian_ingot", new Item(new Item.Settings()));
     
     public static final Item LUCKY_APPLE = registerItem("lucky_apple", new Item(new Item.Settings()
             .food(ModFoodComponents.LUCKY_APPLE)));
@@ -37,11 +38,25 @@ public class ModItems
     public static final Item MYTHRIL_HOE = registerItem("mythril_hoe", new HoeItem(ModToolMaterials.MYTHRIL, 
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.MYTHRIL, 
                     -3.0f, 0.0f))));
-    public static final Item MYTHRIL_HELMET = registerItem("mythril_helmet", new Item(new Item.Settings()));
-    public static final Item MYTHRIL_CHESTPLATE = registerItem("mythril_chestplate", new Item(new Item.Settings()));
-    public static final Item MYTHRIL_LEGGINGS = registerItem("mythril_leggings", new Item(new Item.Settings()));
-    public static final Item MYTHRIL_BOOTS = registerItem("mythril_boots", new Item(new Item.Settings()));
-    public static final Item OBSIDIAN_INGOT = registerItem("obsidian_ingot", new Item(new Item.Settings()));
+    
+    public static final Item MYTHRIL_HELMET = registerItem("mythril_helmet", new ArmorItem(ModArmorMaterials.MYTHRIL, 
+            ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(25))));
+    public static final Item MYTHRIL_CHESTPLATE = registerItem("mythril_chestplate", new ArmorItem(ModArmorMaterials.MYTHRIL, 
+            ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(25))));
+    public static final Item MYTHRIL_LEGGINGS = registerItem("mythril_leggings", new ArmorItem(ModArmorMaterials.MYTHRIL, 
+            ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(25))));
+    public static final Item MYTHRIL_BOOTS = registerItem("mythril_boots", new ArmorItem(ModArmorMaterials.MYTHRIL, 
+            ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(25))));
+
+    public static final Item OBSIDIAN_HELMET = registerItem("obsidian_helmet", new ArmorItem(ModArmorMaterials.OBSIDIAN,
+            ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(30))));
+    public static final Item OBSIDIAN_CHESTPLATE = registerItem("obsidian_chestplate", new ArmorItem(ModArmorMaterials.OBSIDIAN,
+            ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(30))));
+    public static final Item OBSIDIAN_LEGGINGS = registerItem("obsidian_leggings", new ArmorItem(ModArmorMaterials.OBSIDIAN,
+            ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(30))));
+    public static final Item OBSIDIAN_BOOTS = registerItem("obsidian_boots", new ArmorItem(ModArmorMaterials.OBSIDIAN,
+            ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(30))));
+    
     public static final Item OBSIDIAN_SWORD = registerItem("obsidian_sword", new SwordItem(ModToolMaterials.OBSIDIAN, 
             new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.OBSIDIAN, 
                     3, -2.4f))));

@@ -77,6 +77,7 @@ public class ModItemGroups
                         .entries((displayContext, entries) ->
                         {
                             entries.add(ModBlocks.CELESTE_WOOD_DOOR);
+                            
                             entries.add(ModBlocks.MYTHRIL_FENCE);
                             entries.add(ModBlocks.MYTHRIL_FENCE_GATE);
                             entries.add(ModBlocks.MYTHRIL_WALL);
@@ -100,11 +101,18 @@ public class ModItemGroups
                             entries.add(ModItems.OBSIDIAN_AXE);
                             entries.add(ModItems.OBSIDIAN_SHOVEL);
                             entries.add(ModItems.OBSIDIAN_HOE);
+                            
                             entries.add(ModItems.MYTHRIL_SWORD);
                             entries.add(ModItems.MYTHRIL_PICKAXE);
                             entries.add(ModItems.MYTHRIL_AXE);
                             entries.add(ModItems.MYTHRIL_SHOVEL);
                             entries.add(ModItems.MYTHRIL_HOE);
+                            
+                            entries.add(ModItems.OBSIDIAN_HELMET);
+                            entries.add(ModItems.OBSIDIAN_CHESTPLATE);
+                            entries.add(ModItems.OBSIDIAN_LEGGINGS);
+                            entries.add(ModItems.OBSIDIAN_BOOTS);
+                            
                             entries.add(ModItems.MYTHRIL_HELMET);
                             entries.add(ModItems.MYTHRIL_CHESTPLATE);
                             entries.add(ModItems.MYTHRIL_LEGGINGS);
